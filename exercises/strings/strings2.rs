@@ -2,7 +2,7 @@
 // Make me compile without changing the function signature!
 // Execute `rustlings hint strings2` for hints :)
 
-// I AM NOT DONE
+// 
 
 fn main() {
     let word = String::from("green"); // Try not changing this line :)
@@ -13,6 +13,6 @@ fn main() {
     }
 }
 
-fn is_a_color_word(attempt: &str) -> bool {
+fn is_a_color_word(attempt: String) -> bool {
     attempt == "green" || attempt == "blue" || attempt == "red"
 }
