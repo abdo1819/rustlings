@@ -1,7 +1,7 @@
 // enums3.rs
 // Address all the TODOs to make the tests pass!
 
-// 
+// TODO check other solutions
 
 enum Message {
     ChangeColor(u8, u8, u8),
